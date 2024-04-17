@@ -33,6 +33,7 @@ You can then access the apis at `http://localhost:8000/docs`.
 ```shell
 docker compose -f docker-compose-core.yaml up
  ```
+### [References](./References.md)
 
 ### Links
 

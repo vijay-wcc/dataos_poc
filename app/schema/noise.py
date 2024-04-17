@@ -32,7 +32,16 @@ class NoiseSubmit(BaseModel):
                         "lat": 51.4975531,
                         "lng": -0.1373525
                     }
+                },
+                {
+                    "category": "Car Alarm",
+                    "description": "The car alarm is unbearable and has been going off for last 15 minutes",
+                    "location": {
+                        "lat": 51.4975531,
+                        "lng": -0.1373525
+                    }
                 }
-            ]
+            ],
+
         }
     }

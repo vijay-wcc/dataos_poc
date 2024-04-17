@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="duplicate_check_drd" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.22.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.5.0">
+  <decision id="duplicate_check" name="Duplicate Check">
+    <decisionTable id="DecisionTable_0c7mo96">
+      <input id="Input_1" label="post_code">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>post_code</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="is_duplicate" name="is_duplicate" typeRef="boolean" />
+      <rule id="DecisionRule_1fov72m">
+        <inputEntry id="UnaryTests_1nxqbh9">
+          <text>["SW1E 6QP"]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_11w1fso">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0u6gcs4">
+        <inputEntry id="UnaryTests_0dkbn4w">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1lhdm11">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="duplicate_check">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

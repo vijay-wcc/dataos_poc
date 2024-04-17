@@ -11,6 +11,12 @@ fastapi = "^0.110.1"
 uvicorn = "^0.29.0"
 pyzeebe = "^3.0.4"
 python-dotenv = "^1.0.1"
+zeep = "^4.2.1"
+loguru = "^0.7.2"
+langchain-community = "^0.0.33"
+langchain = "^0.1.16"
+notifications-python-client = "^9.0.0"
+glom = "^23.5.0"
 
 
 [build-system]

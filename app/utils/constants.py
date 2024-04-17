@@ -1,0 +1,7 @@
+OS_BASE = "https://api.os.uk/search/places/v1"
+RADIUS_ENDPOINT = OS_BASE + "/radius"
+NEAREST_RESULTS = 1
+MAX_RESULTS = 100
+SRS = "WGS84"
+DATASETS = "LPI,DPA"
+RADIUS = 100
